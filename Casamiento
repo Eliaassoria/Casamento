@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,48 +8,59 @@
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
-            background-color: #F3E9E1;
+            background-color: #F9F5F0;
             margin: 0;
             padding: 0;
             color: #333;
         }
 
         header {
-            background: #A67C52;
-            color: white;
-            padding: 50px 0;
+            background: #F9F5F0;
             text-align: center;
-            font-family: 'Great Vibes', cursive;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-bottom-left-radius: 50% 20px;
-            border-bottom-right-radius: 50% 20px;
+            padding: 50px 0;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            background-image: url('https://example.com/floral-background.png'); /* Cambia esto por una URL válida */
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            z-index: -1;
         }
 
         header h1 {
-            font-size: 4.5rem;
-            margin: 0;
-            color: #FFF2E0;
+            font-size: 4rem;
+            color: #A67C52;
+            font-family: 'Great Vibes', cursive;
         }
 
         header p {
-            font-size: 1.7rem;
+            font-size: 2rem;
             margin: 0;
             font-family: 'Montserrat', sans-serif;
+            color: #A67C52;
             letter-spacing: 2px;
         }
 
         section {
-            margin: 40px auto;
+            margin: 60px auto;
             max-width: 800px;
             text-align: center;
         }
 
         .event-details {
-            background-color: #FFF2E0;
+            background-color: #FFF;
             border-radius: 15px;
-            padding: 30px;
+            padding: 40px;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
+            margin: 30px auto;
             max-width: 600px;
             border: 1px solid #e0e0e0;
         }
@@ -68,20 +79,14 @@
         }
 
         .event-details strong {
-            color: #333;
+            color: #A67C52;
             font-weight: 600;
         }
 
-        .event-details img.icon {
-            vertical-align: middle;
-            width: 30px;
-            margin-right: 10px;
-        }
-
         .confirmacion {
-            background-color: #FFF2E0;
+            background-color: #FFF;
             border-radius: 15px;
-            padding: 20px;
+            padding: 30px;
             margin: 40px auto;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
             border: 1px solid #e0e0e0;
@@ -117,7 +122,7 @@
         }
 
         .vestimenta {
-            background-color: #FFF2E0;
+            background-color: #FFF;
             border-radius: 15px;
             padding: 30px;
             margin: 40px auto;
@@ -138,7 +143,7 @@
         }
 
         footer {
-            background-color: #333;
+            background-color: #A67C52;
             color: white;
             padding: 20px;
             text-align: center;
@@ -187,4 +192,3 @@
 
 </body>
 </html>
-
