@@ -23,7 +23,7 @@
 
         header::after {
             content: '';
-            background-image: url('https://example.com/floral-background.png'); /* Cambia esto por una URL válida */
+            background-image: url('https://example.com/floral-background.png'); /* Asegúrate de que esta URL sea válida */
             background-size: cover;
             background-position: center;
             position: absolute;
@@ -39,6 +39,7 @@
             font-size: 4rem;
             color: #A67C52;
             font-family: 'Great Vibes', cursive;
+            margin-bottom: 10px;
         }
 
         header p {
@@ -192,3 +193,4 @@
 
 </body>
 </html>
+
