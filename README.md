@@ -4,78 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Casamiento de Elias</title>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
-            background-color: #f4f4f9;
+            background-color: #F0F3F4;
             margin: 0;
             padding: 0;
             color: #333;
         }
 
         header {
-            background: linear-gradient(135deg, #76b852, #8DC26F);
+            background: linear-gradient(135deg, #6DD5FA, #8DC26F);
             color: white;
-            padding: 40px 0;
+            padding: 60px 0;
             text-align: center;
             font-family: 'Great Vibes', cursive;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-bottom-left-radius: 50% 20px;
+            border-bottom-right-radius: 50% 20px;
         }
 
         header h1 {
-            font-size: 4rem;
+            font-size: 4.5rem;
             margin: 0;
+            color: #fff;
         }
 
         header p {
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             margin: 0;
             font-family: 'Montserrat', sans-serif;
+            letter-spacing: 2px;
         }
 
         section {
-            margin: 40px auto;
-            max-width: 900px;
+            margin: 50px auto;
+            max-width: 800px;
             text-align: center;
         }
 
         .event-details {
             background-color: #fff;
-            border-radius: 10px;
-            padding: 30px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
             max-width: 600px;
+            border: 1px solid #e0e0e0;
         }
 
         .event-details h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #4CAF50;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #6DB3F2;
+            text-transform: uppercase;
         }
 
         .event-details p {
-            font-size: 1.2rem;
-            line-height: 1.5;
+            font-size: 1.4rem;
+            line-height: 1.7;
+            color: #555;
         }
 
         .event-details strong {
             color: #333;
-            font-weight: bold;
+            font-weight: 600;
+        }
+
+        .event-details p.icon-text {
+            margin-top: 30px;
+        }
+
+        .icon {
+            vertical-align: middle;
+            width: 30px;
+            margin-right: 10px;
         }
 
         .footer-text {
-            font-size: 1.2rem;
-            margin-top: 40px;
+            font-size: 1.3rem;
+            margin-top: 60px;
             color: #4CAF50;
         }
 
         footer {
             background-color: #333;
             color: white;
-            padding: 20px;
+            padding: 30px;
             text-align: center;
-            font-size: 1rem;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
         }
     </style>
 </head>
@@ -89,9 +108,9 @@
     <section>
         <div class="event-details">
             <h2>Detalles del Evento</h2>
-            <p><strong>Fecha:</strong> 15 de diciembre de 2024</p>
-            <p><strong>Lugar:</strong> Salón de Fiestas XYZ, Ciudad de Córdoba</p>
-            <p><strong>Hora:</strong> 17:00</p>
+            <p><img src="https://img.icons8.com/color/48/000000/calendar--v1.png" class="icon"><strong>Fecha:</strong> 15 de diciembre de 2024</p>
+            <p><img src="https://img.icons8.com/color/48/000000/marker--v1.png" class="icon"><strong>Lugar:</strong> Salón de Fiestas XYZ, Ciudad de Córdoba</p>
+            <p><img src="https://img.icons8.com/color/48/000000/clock--v1.png" class="icon"><strong>Hora:</strong> 17:00</p>
         </div>
 
         <p class="footer-text">¡Nos encantaría que nos acompañes en nuestro gran día!</p>
