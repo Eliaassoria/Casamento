@@ -23,7 +23,7 @@
 
         header::after {
             content: '';
-            background-image: url('https://example.com/floral-background.png'); /* Asegúrate de que esta URL sea válida */
+            background-image: url('https://unsplash.com/es/fotos/una-mesa-con-un-jarron-de-flores-y-velas-psziFFz8NxU'); /* Asegúrate de que esta URL sea válida */
             background-size: cover;
             background-position: center;
             position: absolute;
